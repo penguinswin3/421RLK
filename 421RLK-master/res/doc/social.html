@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+  body{
+   background: #42413C;
+  }
+
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+</head>
+<body>
+ 
+<div id="accordion">
+  <h3>Discord</h3>
+  <div>
+   <iframe src="https://discordapp.com/widget?id=131034500934139904&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0">
+   </iframe>
+  </div>
+  <h3>Twitch</h3>
+  <div>
+    <iframe
+    src="http://player.twitch.tv/?RobotLovesKitty"
+    height="500"
+    width="800"
+    allowfullscreen="true">
+    </iframe>
+  </div>
+  <h3>Twitter</h3>
+  <div>
+    <a class="twitter-timeline" data-width="600" data-height="450" data-theme="dark" href="https://twitter.com/RobotLovesKitty">Tweets by RobotLovesKitty</a>
+    <p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+  </div>
+  <h3>Patreon</h3>
+  <div>
+   <div id = "patreon" class="col-xs-12 col-md-3 _1v4-components-CreatorPageV3HeadNavBar--buttonContainer" data-reactid=".0.1.1.1.0.0.0.1"><a color="red" type="button" name="become-a-patron" data-test-tag="become-patron-button" href="https://www.patreon.com/bePatron?c=270800" role="button" class="ctBxsc" data-reactid=".0.1.1.1.0.0.0.1.0"><span data-reactid=".0.1.1.1.0.0.0.1.0.0">Become a patron</span></a></div>
+  </div>
+    <h3>Youtube</h3>
+  <div>
+    <iframe width="854" height="480" src="https://www.youtube.com/embed/7AdkwvO2548?list=UUH0YHuULS4kXHmMDBntYcCA" frameborder="0" allowfullscreen></iframe>
+  </div>
+    <h3>Facebook</h3>
+  <div>
+    <p>
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRobotLovesKitty&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  </div>
+    <h3>Tumblr</h3>
+  <div>
+    <iframe src="http://robotloveskitty.tumblr.com/" id = "tumblr" height="500px" width = "700px"></iframe>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>

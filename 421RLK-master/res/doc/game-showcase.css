@@ -1,0 +1,157 @@
+body {
+	background: #42413C;
+	margin: 0;			
+}
+.column-left {
+	float: left;
+	width: 33%;
+}
+.column-center {
+	display: inline-block;
+	width: 33%;
+}
+.column-right {
+	float: right;
+	width: 33%;
+}
+#col-left {
+	float: left;
+	width: 50%;
+}
+#col-right {
+	float: right;
+	width: 50%;
+}
+#content1 {
+	display: none;
+}
+#content2 {
+	display: none;
+}
+#content3 {
+	display: none;
+}
+#content4 {
+	display: none;
+}
+#content5 {
+	display: none;
+}
+#content6 {
+	display: none;
+}
+#content7 {
+	display: none;
+}
+#content8 {
+	display: none;
+}
+#content9 {
+	display: none;
+}
+#content10 {
+	display: none;
+}
+#game1-container:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#game2-container:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#games {
+	color: white;
+	text-align: center;
+}
+#first-game {
+	color: white;
+	text-align: center;
+}
+#coming-soon {
+	color: white;
+	text-align: center;
+}
+
+#the-jam-games {
+	color: white;
+	text-align: center;
+}
+#jamgame1-container:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#jamgame2-container:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#jamgame3-container:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#jamgame4-container:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#jamgame5-container:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#jamgame6-container:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#the-first-game:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+#soon:hover {
+	background-color: #202B33;
+	cursor: pointer;
+}
+
+#LoD {
+	display: block;
+	margin: 0 auto;
+}
+#TP {
+	display: block;
+	margin: 0 auto;
+}
+#CGP {
+	display: block;
+	margin: 0 auto;
+}
+#LoGK {
+	display: block;
+	margin: 0 auto;
+}
+#TMC5 {
+	display: block;
+	margin: 0 auto;
+}
+#SCC {
+	display: block;
+	margin: 0 auto;
+}
+#ZDC {
+	display: block;
+	margin: 0 auto;
+}
+#JDDDC {
+	display: block;
+	margin: 0 auto;
+}
+#ND {
+	display: block;
+	margin: 0 auto;
+}
+#UC {
+	display: block;
+	margin: 0 auto;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
