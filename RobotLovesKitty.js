@@ -8,6 +8,16 @@ $(document).ready(function(){
 	// hides all content pages
 	$(".site_content").slideUp(0);
 	
+	// shows the games page by default
+	$("#games").slideDown(0);
+	$("#container3").animate({
+		top: '180px'
+	}, 500);
+	$(".grow_shrink").animate({
+		top: '5%'
+	});
+	
+	
 	$(".grow_shrink").hover(
 		function(){
 			$(this).animate({
